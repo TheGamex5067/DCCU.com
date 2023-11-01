@@ -152,8 +152,3 @@ input{
     color: black;
     background: red;
 }
-
-input:hover{
-    background: red;
-    color: black;
-}
