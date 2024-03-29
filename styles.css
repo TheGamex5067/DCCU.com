@@ -35,8 +35,12 @@ h1{
     color: red;
     cursor: pointer;
     overflow: hidden;
+    transition: 0.2s;
+}
 
-
+.btn:active{
+    background: red;
+    color: black;
 }
 
 
