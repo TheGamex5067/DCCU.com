@@ -38,7 +38,7 @@ h1{
     transition: 0.2s;
 }
 
-.btn:hover{
+.btn:active{
     background: red;
     color: black;
 }
