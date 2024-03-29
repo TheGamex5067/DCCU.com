@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-image: url(background.jpg);
@@ -9,48 +9,57 @@ body{
     height: 1000px;
     background-color: black;
 }
-.headh1{
+
+.headh1 {
     color: red;
 }
-h1{
-    color:rgb(255, 0, 0);
+
+h1 {
+    color: rgb(255, 0, 0);
     width: 85;
     margin: auto;
     padding: 35 0 0 0;
 }
 
-.container{
+.container {
     text-align: right;
 }
-.btn{
+
+.btn {
     position: relative;
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10;
+    margin: 20px 10px;
     font-weight: bold;
-    border: 2px solid red;
+    border: 2px solid red; /* Changed border color to transparent */
     border-radius: 30px;
     background: black;
     color: red;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s;
+    transition: border-color 0.3s ease, box-shadow 0.3s linear; /* Added transition for smooth effect */
 }
 
-.btn:active{
-    background: red;
-    color: black;
+/* Add styles to change background and text color when hovered */
+.btn:hover {
+    background-color: rgba(255, 0, 0, 1); /* Semi-transparent red background */
+    color: white;
+    border-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red border */
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.5); /* Glowing effect */
 }
 
+.btn:active {
+    box-shadow: 0 0 40px 15px rgba(255, 0, 0, 0.8); /* Further intensified glowing effect when active */
+}
 
-
-.para{
-    margin:auto;
+.para {
+    margin: auto;
     padding: 20%;
     align-items: center;
 }
-.banner{
+
+.banner {
     border: 1px solid #ff0000;
     border-radius: 10px;
     background: none;
@@ -59,14 +68,14 @@ h1{
     cursor: default;
     width: 800px;
     height: 600px;
-    
 }
-.web{
+
+.web {
     color: white;
     padding: 120px;
 }
 
-.Movbtn{
+.Movbtn {
     color: red;
     background: transparent;
     border: solid red;
@@ -76,32 +85,50 @@ h1{
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 80px;
+    font-size: 24px; /* Adjust the font size as needed */
+    transition: border-color 0.3s ease, box-shadow 0.3s linear, font-size 0.3s ease; /* Added transition for smooth effect */
 }
 
-span{
+/* Add styles to change background and text color when hovered */
+.Movbtn:hover {
+    background-color: rgba(255, 0, 0, 1); /* Semi-transparent red background */
+    color: white;
+    border-color: rgba(255, 0, 0, 1); /* Semi-transparent red border */
+    box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.8); /* Intensified glowing effect */
+}
+
+/* Add styles for active state */
+.Movbtn:active {
+    box-shadow: 0 0 40px 15px rgba(255, 0, 0, 0.8); /* Further intensified glowing effect when active */
+}
+
+
+span {
     color: red;
     cursor: pointer;
 }
-.Move{
+
+.Move {
     border: solid red;
     background: transparent;
     border-radius: 5px;
     align-items: center;
     width: 1200px;
 }
-.Movie{
+
+.Movie {
     margin: 0 10px 10px 10px;
     height: 500px;
     width: 200px;
 }
 
-#FSuit{
+#FSuit {
     width: 55%;
     margin-left: 135px;
     margin-right: 120px;
 }
 
-#il23{
+#il23 {
     margin-left: 0px;
     align-items: center;
     align-items: center;
@@ -109,34 +136,40 @@ span{
     width: 600px;
     background: black;
     border-radius: 20px;
+}
 
-}
 #parasuit {
-   color: red;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 20px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
-p{
-    color:white;
+
+p {
+    color: white;
     margin: 0 250px 0 250px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
 #movlink {
     color: red;
 }
+
 #FC {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
 }
+
 #CS {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-.coming{
+
+.coming {
     margin: 20px 0 30px 0;
 }
-input{
+
+input {
     border: solid red;
     background: black;
     color: red;
@@ -144,7 +177,8 @@ input{
     height: 50px;
     font-size: 30px;
 }
-#pass{
+
+#pass {
     color: red;
     height: 50px;
     background: black;
@@ -152,7 +186,7 @@ input{
     transition: 0.1s linear;
 }
 
-#pass:active{
+#pass:active {
     color: black;
     background: red;
 }
