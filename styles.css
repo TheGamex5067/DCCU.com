@@ -38,7 +38,7 @@ h1 {
     color: red;
     cursor: pointer;
     overflow: hidden;
-    transition: border-color 0.3s ease, box-shadow 0.3s linear; /* Added transition for smooth effect */
+    transition: border-color 0.1s ease, box-shadow 0.1s linear; /* Added transition for smooth effect */
 }
 
 /* Add styles to change background and text color when hovered */
@@ -86,7 +86,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 80px;
     font-size: 24px; /* Adjust the font size as needed */
-    transition: border-color 0.3s ease, box-shadow 0.3s linear, font-size 0.3s ease; /* Added transition for smooth effect */
+    transition: border-color 0.1s ease, box-shadow 0.1s linear, font-size 0.1s ease; /* Added transition for smooth effect */
 }
 
 /* Add styles to change background and text color when hovered */
